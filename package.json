@@ -1,7 +1,7 @@
 {
   "name": "friendtech-ai",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.ts",
   "author": "DanielHighETH <danielhigheth@gmail.com>",
   "license": "MIT",
   "dependencies": {
@@ -13,6 +13,7 @@
     "ws": "^8.14.2"
   },
   "scripts": {
+    "start": "node -r ts-node/register index.ts",
     "build": "tsc",
     "dev": "ts-node index.ts"
   }
